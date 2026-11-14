@@ -1,0 +1,12 @@
+{
+	"key.category.streichelmod.main": "Pet Mod",
+	"key.streichelmod.toggle": "Toggle petting",
+	"key.streichelmod.style": "Change petting style",
+	"message.streichelmod.on": "Petting: ON",
+	"message.streichelmod.off": "Petting: OFF",
+	"message.streichelmod.style": "Petting style: %s",
+	"message.streichelmod.petted": "You pet %s",
+	"style.streichelmod.0": "Hearts",
+	"style.streichelmod.1": "Sparkles",
+	"style.streichelmod.2": "Music"
+}

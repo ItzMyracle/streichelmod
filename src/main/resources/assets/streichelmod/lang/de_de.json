@@ -1,0 +1,12 @@
+{
+	"key.category.streichelmod.main": "Streichel Mod",
+	"key.streichelmod.toggle": "Streicheln an/aus",
+	"key.streichelmod.style": "Streichel-Stil wechseln",
+	"message.streichelmod.on": "Streicheln: AN",
+	"message.streichelmod.off": "Streicheln: AUS",
+	"message.streichelmod.style": "Streichel-Stil: %s",
+	"message.streichelmod.petted": "Du streichelst %s",
+	"style.streichelmod.0": "Herzchen",
+	"style.streichelmod.1": "Funkeln",
+	"style.streichelmod.2": "Musik"
+}

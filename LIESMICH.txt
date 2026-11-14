@@ -1,0 +1,22 @@
+STREICHEL MOD (Fabric, Minecraft 1.21.11)
+
+Was sie macht
+- Wenn du einen anderen Spieler triffst, streichelst du ihn: Partikel, Sound und Actionbar-Text.
+- Die Effekte siehst nur du. Der Treffer selbst wird nicht veraendert.
+- Tasten (Standard: H = an/aus, J = Stil wechseln) aenderst du ingame unter
+  Optionen > Steuerung > Tastenbelegung > "Streichel Mod".
+- Es gibt 3 Stile: Herzchen, Funkeln, Musik. Einstellungen werden gespeichert.
+
+So baust du die .jar
+1. IntelliJ IDEA Community installieren (kostenlos, jetbrains.com/idea).
+2. Diesen Ordner entpacken und in IntelliJ mit "Open" oeffnen. "Trust Project" bestaetigen.
+3. Unter Settings > Build, Execution, Deployment > Build Tools > Gradle bei "Gradle JVM"
+   ein JDK 21 waehlen (IntelliJ kann es unter "Download JDK" selbst laden).
+4. Warten, bis Gradle fertig synchronisiert hat (beim ersten Mal dauert es einige Minuten).
+5. Rechts das Gradle-Fenster (Elefant) > streichelmod > Tasks > build > "build" doppelklicken.
+6. Die Datei liegt dann in build/libs/streichelmod-1.0.0.jar
+   (NICHT die Datei mit "-sources" im Namen).
+
+Einbauen
+- Im NoRisk-Launcher dein Profil oeffnen, oben auf das Ordner-Symbol klicken und die .jar in den
+  mods-Ordner kopieren. Fabric API muss installiert sein (hast du schon).

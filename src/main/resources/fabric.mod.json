@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "streichelmod",
+	"version": "${version}",
+	"name": "Streichel Mod",
+	"description": "Streichle andere Spieler, wenn du sie triffst. Nur Effekte auf deinem Bildschirm, Tasten ingame aenderbar.",
+	"authors": ["du"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.streichelmod.StreichelModClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
